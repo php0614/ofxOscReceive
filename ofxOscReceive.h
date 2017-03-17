@@ -1,18 +1,8 @@
 #include "ofxOsc.h"
-//ofApp.h에 ofxOsc.h include필요없음.
 
-
-//쓰는법 :
-//1. global variable에 벡터 선언
-//2. receive의 첫번째 arg에 주소들 { } 로 넣어주고, 두번째에 그 벡터를 넣어주면 그냥 끝.
-//3. 벡터는 class안에서 알아서 address의 사이즈로 resize되므로 initialize나 resize필요없음.
-
-//example :
-// ofApp.h에
 // #include "class_oscReceiver.h"
 // vector<float> test;
 
-// draw또는 update에 :
 // oscR.receive( {"/x", "/y"}, test );
 
 class ofxOscReceive : public ofxOscReceiver{
