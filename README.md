@@ -9,6 +9,7 @@ example :
 //ofApp.h :
 
 #include "ofxOscReceive.h"
+
 vector<float> test;
 
 // draw() or update() in your ofApp.cpp
