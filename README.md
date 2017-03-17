@@ -10,6 +10,8 @@ example :
 
 #include "ofxOscReceive.h"
 
+ofxOscReceive oscR;
+
 //int, float, string, char and bool can be used. Just decalre right vector and it's going to do everything for you.
 
 vector< float > test;
