@@ -1,6 +1,6 @@
 # ofxOscReceive
 
-Simple wrapper header file that makes receiving osc data in openFrameworks simple and easy.
+ofxOsc wrapper header file that makes receiving osc data in openFrameworks simple and easy.
 ofxOsc is needed in your project to use this. If ofxOsc is in your project, you don't need to decalre #include "ofxOsc.h" in your ofApp.h . it is already included in this header file, so you only need to #include "ofxOscReceive.h" in your ofApp.h.
 
 
