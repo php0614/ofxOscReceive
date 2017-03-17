@@ -7,10 +7,12 @@ ofxOsc is needed in your project to use this. If ofxOsc is in your project, you 
 example :
 
 //ofApp.h :
+
 #include "ofxOscReceive.h"
 vector<float> test;
 
 // draw() or update() in your ofApp.cpp
+
 oscR.receive( {"/x", "/y"}, test);
 
 -then incoming values that has a path name /x and /y will be stored in test[0] and test[1] respectively, in every loop.
