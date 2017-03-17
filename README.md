@@ -10,6 +10,8 @@ example :
 
 #include "ofxOscReceive.h"
 
+//int, float, string, char and bool can be used. Just decalre right vector and it's going to do everything for you.
+
 vector< float > test;
 
 // draw() or update() in your ofApp.cpp
